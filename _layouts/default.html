@@ -22,6 +22,15 @@
   </head>
 
   <body>
+    function scrollToHeader1() {
+      document.querySelector('#header1').scrollIntoView({behavior: 'smooth'});
+    }
+    function scrollToHeader2() {
+      document.querySelector('#header2').scrollIntoView({behavior: 'smooth'});
+    }
+    function scrollToHeader3() {
+      document.querySelector('#header3').scrollIntoView({behavior: 'smooth'});
+    }
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -36,11 +45,11 @@
             <!--<a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/contact">Contact</a>
             <a href="{{ site.baseurl }}/insurance">Insurance</a>
-            <a href="{{ site.baseurl }}/services">Services</a>>
-            <a class="page-link {% if page.url == '/about/' %} current {% endif %}" href="{{ site.baseurl }}/about/">About</a>
-            <a class="page-link {% if page.url == '/contact/' %} current {% endif %}" href="{{ site.baseurl }}/contact/">Contact</a>
-            <a class="page-link {% if page.url == '/insurance/' %} current {% endif %}" href="{{ site.baseurl }}/insurance/">Insurance</a>
-            <a class="page-link {% if page.url == '/services/' %} current {% endif %}" href="{{ site.baseurl }}/services/">Services</a-->
+            <a href="{{ site.baseurl }}/services">Services</a-->>
+            <a class="page-link {% if page.url == '/about/' %} current {% endif %}" href="javascript: scrollToHeader1">Header1</a>
+            <a class="page-link {% if page.url == '/contact/' %} current {% endif %}" href="javascript: scrollToHeader2">Header2</a>
+            <a class="page-link {% if page.url == '/insurance/' %} current {% endif %}" href="javascript: scrollToHeader3">Header3</a>
+            <!--a class="page-link {% if page.url == '/services/' %} current {% endif %}" href="{{ site.baseurl }}/services/">Services</a-->
           </nav>
         </header>
       </div>
