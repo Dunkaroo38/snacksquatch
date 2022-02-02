@@ -28,6 +28,6 @@ work
 first
 try.</p>
 
-<div id="header3"><h1>Last part of the test, hopefully you made it here!</h></div>
+<div id="header3"><h1>Last part of the test, hopefully you made it here!</h1></div>
 
 <p>I don't think I need to make this part as in depth. Good job.</p>
